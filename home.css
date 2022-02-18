@@ -16,7 +16,7 @@ body {
     width: 650px;
 }
 
-.withe{
+.withe {
     background-color: white;
     padding: 30px;
 }
@@ -24,15 +24,15 @@ body {
 h1 {
     color: #4B50E1;
     margin-bottom: 20px;
-
+    font-weight: normal;
 }
 
 input {
-    background-color: pink;
     border: none;
     color: #4B50E1;
     padding: 10px 20px;
     font-size: 16px;
+    line-height: 1rem;
 }
 
 .lentele {
@@ -41,58 +41,65 @@ input {
     margin-bottom: 20px;
 }
 
-.lentele0{
+.lentele0 {
     display: flex;
     gap: 20px;
 }
 
-.lentele1{
+.lentele1 {
     display: flex;
     gap: 20px;
 }
 
-
-.lentele2{
+.lentele2 {
     display: grid;
     gap: 20px;
     width: 490px;
 }
-.first{
+
+.first {
     background-color: #E7E9FE;
     grid-area: first;
 }
 
-.last{
+.last {
     background-color: #E7E9FE;
     grid-area: last;
 }
 
-.email{
+.email {
     background-color: #DCE1FF;
     grid-area: email;
 }
 
-.phone{
+.phone {
     background-color: #DCE1FF;
     grid-area: phone;
 }
 
-.address{
+.address {
     background-color: #C7CDFD;
     width: 100%;
 }
 
-.message{
+.message {
     background-color: #A5B1FD;
     width: 100%;
     padding-bottom: 40px;
+    border: none;
+    color: #4B50E1;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 input {
     border-radius: 5px;
 }
 
-.submit {
+button{
     background-color: #233BF5;
     padding: 10px 20px;
     font-size: 16px;
@@ -102,13 +109,16 @@ input {
     margin-bottom: 20px;
     text-align: center;
     margin: auto;
-}
-
-a {
-    text-decoration: none;
     color: white;
+    border: none;
 }
 
-p{
+.submit {
+    width: 100%;
+    margin-left: calc(50% - 50px);
+}
+
+p {
     color: #9FD2C5;
+    margin-top: 20px;
 }
