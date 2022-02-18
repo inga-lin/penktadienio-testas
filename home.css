@@ -1,0 +1,114 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.backraund-color {
+    background-color: #D4E6FE;
+    padding: 50px;
+    width: 650px;
+}
+
+.withe{
+    background-color: white;
+    padding: 30px;
+}
+
+h1 {
+    color: #4B50E1;
+    margin-bottom: 20px;
+
+}
+
+input {
+    background-color: pink;
+    border: none;
+    color: #4B50E1;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.lentele {
+    gap: 20px;
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.lentele0{
+    display: flex;
+    gap: 20px;
+}
+
+.lentele1{
+    display: flex;
+    gap: 20px;
+}
+
+
+.lentele2{
+    display: grid;
+    gap: 20px;
+    width: 490px;
+}
+.first{
+    background-color: #E7E9FE;
+    grid-area: first;
+}
+
+.last{
+    background-color: #E7E9FE;
+    grid-area: last;
+}
+
+.email{
+    background-color: #DCE1FF;
+    grid-area: email;
+}
+
+.phone{
+    background-color: #DCE1FF;
+    grid-area: phone;
+}
+
+.address{
+    background-color: #C7CDFD;
+    width: 100%;
+}
+
+.message{
+    background-color: #A5B1FD;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: #233BF5;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    color: #9FD2C5;
+}
